@@ -7,6 +7,7 @@ const env = {
   DOTNET_CLI_HOME: '/tmp',
   DOTNET_NOLOGO: 'true',
   HOME: process.env.HOME,
+  CI: true
 }
 
 function btoa(str) {
